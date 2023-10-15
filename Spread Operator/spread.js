@@ -52,21 +52,21 @@ const restaurant = {
 // Adding another element in present array(i.e. mainMenu)
 // But it will give totally new array
 const newMenu = [...restaurant.mainMenu, "Gnocci"];
-console.log(newMenu);
+// console.log(newMenu);
 
 // Copy array
 const mainMenuCopy = [...restaurant.mainMenu];
-console.log(mainMenuCopy);
+// console.log(mainMenuCopy);
 
 // Join 2 arrays using spread operator
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
-console.log(menu);
+// console.log(menu);
 
 // Iterables : arrays, strings , maps, sets, But not objects
 const str = "Nikhil";
 const letters = [...str, " ", "A."];
-console.log(letters);
-console.log(...str);
+// console.log(letters);
+// console.log(...str);
 
 // Real-world example
 const ingredients = [
@@ -75,7 +75,7 @@ const ingredients = [
   prompt("Ingredient 3?"),
 ];
 
-console.log(ingredients);
+// console.log(ingredients);
 // By Calling each elements
 restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
 
